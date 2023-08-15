@@ -1,0 +1,10 @@
+function convert(employee)
+{
+    var a=
+    {
+        username:"aditya",
+        age:21
+    }
+    console.log(`Name of user is ${a.username} and the age is ${a.age}`);
+}
+convert()

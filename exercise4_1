@@ -1,0 +1,7 @@
+function convert(product) 
+  {
+    return `Name of product is ${product.name}\nand the price of product is ${product.price}0$`;
+  }
+  var input = { name: "samsung", price: 3000 };
+  var result = convert(input);
+  console.log(result);
